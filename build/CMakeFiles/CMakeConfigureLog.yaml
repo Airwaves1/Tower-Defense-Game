@@ -1,0 +1,1576 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/3.30.0-rc3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/3.30.0-rc3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-rhopgr"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-rhopgr"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-rhopgr'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_ff8e8
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ff8e8.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_ff8e8.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_ff8e8.dir/CMakeCCompilerABI.c.obj -c C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v  -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_ff8e8.dir/CMakeCCompilerABI.c.obj -o cmTC_ff8e8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ff8e8.lib -Xlinker /pdb:cmTC_ff8e8.pdb -Xlinker /version:0.0     && cd ."
+        clang version 18.1.8
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin
+         "C:\\\\Develop\\\\Tools\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\bin\\\\lld-link" -out:cmTC_ff8e8.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Develop\\\\Tools\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_ff8e8.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_ff8e8.lib /pdb:cmTC_ff8e8.pdb /version:0.0\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link" "--version"
+      LLD 18.1.8
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-wjjpps"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-wjjpps"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-wjjpps'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_a6e97
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a6e97.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_a6e97.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_a6e97.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v  -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_a6e97.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a6e97.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a6e97.lib -Xlinker /pdb:cmTC_a6e97.pdb -Xlinker /version:0.0     && cd ."
+        clang version 18.1.8
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin
+         "C:\\\\Develop\\\\Tools\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\bin\\\\lld-link" -out:cmTC_a6e97.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Develop\\\\Tools\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\\\lib\\\\clang\\\\18\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_a6e97.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_a6e97.lib /pdb:cmTC_a6e97.pdb /version:0.0\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/lld-link" "--version"
+      LLD 18.1.8
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake:124 (_record_compiler_features_cxx)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-z1qof2"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-z1qof2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-z1qof2'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_30448
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_30448.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_30448.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_30448.dir/feature_tests.cxx.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-z1qof2/feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_30448.dir/feature_tests.cxx.obj -o cmTC_30448.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_30448.lib -Xlinker /pdb:cmTC_30448.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake:132 (_record_compiler_features_cxx)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-0urh6m"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-0urh6m"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-0urh6m'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_e51c8
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_e51c8.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_e51c8.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_e51c8.dir/feature_tests.cxx.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-0urh6m/feature_tests.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_e51c8.dir/feature_tests.cxx.obj -o cmTC_e51c8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e51c8.lib -Xlinker /pdb:cmTC_e51c8.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "external/SDL/CMakeLists.txt:82 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-10zbst"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-10zbst"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-10zbst'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_b593c
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b593c.dir/CheckSymbolExists.c.obj -MF CMakeFiles\\cmTC_b593c.dir\\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_b593c.dir/CheckSymbolExists.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-10zbst/CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_b593c.dir/CheckSymbolExists.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b593c.dir/CheckSymbolExists.c.obj -MF CMakeFiles\\cmTC_b593c.dir\\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_b593c.dir/CheckSymbolExists.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-10zbst/CheckSymbolExists.c
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-10zbst/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'\x0d
+            8 |   return ((int*)(&__GLIBC__))[argc];\x0d
+              |                   ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:28 (_internal_check_cpu_architecture)"
+      - "external/SDL/CMakeLists.txt:139 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_X86"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twi6bv"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twi6bv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_X86"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twi6bv'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_3c365
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_X86  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3c365.dir/src.c.obj -MF CMakeFiles\\cmTC_3c365.dir\\src.c.obj.d -o CMakeFiles/cmTC_3c365.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twi6bv/src.c
+        FAILED: CMakeFiles/cmTC_3c365.dir/src.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_X86  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3c365.dir/src.c.obj -MF CMakeFiles\\cmTC_3c365.dir\\src.c.obj.d -o CMakeFiles/cmTC_3c365.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twi6bv/src.c
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twi6bv/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
+            6 |   choke\x0d
+              |   ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:30 (_internal_check_cpu_architecture)"
+      - "external/SDL/CMakeLists.txt:140 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_X64"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qhrdgh"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qhrdgh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_X64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qhrdgh'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_9917d
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_X64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9917d.dir/src.c.obj -MF CMakeFiles\\cmTC_9917d.dir\\src.c.obj.d -o CMakeFiles/cmTC_9917d.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qhrdgh/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_9917d.dir/src.c.obj -o cmTC_9917d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9917d.lib -Xlinker /pdb:cmTC_9917d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:32 (_internal_check_cpu_architecture)"
+      - "external/SDL/CMakeLists.txt:141 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_ARM32"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3n93cr"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3n93cr"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_ARM32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3n93cr'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_47843
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM32  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_47843.dir/src.c.obj -MF CMakeFiles\\cmTC_47843.dir\\src.c.obj.d -o CMakeFiles/cmTC_47843.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3n93cr/src.c
+        FAILED: CMakeFiles/cmTC_47843.dir/src.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM32  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_47843.dir/src.c.obj -MF CMakeFiles\\cmTC_47843.dir\\src.c.obj.d -o CMakeFiles/cmTC_47843.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3n93cr/src.c
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3n93cr/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
+            6 |   choke\x0d
+              |   ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:34 (_internal_check_cpu_architecture)"
+      - "external/SDL/CMakeLists.txt:142 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_ARM64"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8gi2t"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8gi2t"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_ARM64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8gi2t'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_b29e8
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b29e8.dir/src.c.obj -MF CMakeFiles\\cmTC_b29e8.dir\\src.c.obj.d -o CMakeFiles/cmTC_b29e8.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8gi2t/src.c
+        FAILED: CMakeFiles/cmTC_b29e8.dir/src.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_ARM64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b29e8.dir/src.c.obj -MF CMakeFiles\\cmTC_b29e8.dir\\src.c.obj.d -o CMakeFiles/cmTC_b29e8.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8gi2t/src.c
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8gi2t/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
+            6 |   choke\x0d
+              |   ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "external/SDL/cmake/CheckCPUArchitecture.cmake:36 (_internal_check_cpu_architecture)"
+      - "external/SDL/CMakeLists.txt:143 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-o16pkv"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-o16pkv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_LOONGARCH64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-o16pkv'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_27aa3
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_27aa3.dir/src.c.obj -MF CMakeFiles\\cmTC_27aa3.dir\\src.c.obj.d -o CMakeFiles/cmTC_27aa3.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-o16pkv/src.c
+        FAILED: CMakeFiles/cmTC_27aa3.dir/src.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_27aa3.dir/src.c.obj -MF CMakeFiles\\cmTC_27aa3.dir\\src.c.obj.d -o CMakeFiles/cmTC_27aa3.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-o16pkv/src.c
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-o16pkv/src.c:6:3: error: use of undeclared identifier 'choke'\x0d
+            6 |   choke\x0d
+              |   ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:584 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_WALL"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oeifc8"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oeifc8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_WALL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oeifc8'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_bf799
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_WALL  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -MD -MT CMakeFiles/cmTC_bf799.dir/src.c.obj -MF CMakeFiles\\cmTC_bf799.dir\\src.c.obj.d -o CMakeFiles/cmTC_bf799.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oeifc8/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_bf799.dir/src.c.obj -o cmTC_bf799.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bf799.lib -Xlinker /pdb:cmTC_bf799.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:594 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_WUNDEF"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-31259r"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-31259r"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_WUNDEF"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-31259r'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_7d2d5
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_WUNDEF  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wundef -MD -MT CMakeFiles/cmTC_7d2d5.dir/src.c.obj -MF CMakeFiles\\cmTC_7d2d5.dir\\src.c.obj.d -o CMakeFiles/cmTC_7d2d5.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-31259r/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_7d2d5.dir/src.c.obj -o cmTC_7d2d5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7d2d5.lib -Xlinker /pdb:cmTC_7d2d5.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:599 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_NO_STRICT_ALIASING"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-4rqzgh"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-4rqzgh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_NO_STRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-4rqzgh'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_865a5
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_NO_STRICT_ALIASING  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -fno-strict-aliasing -MD -MT CMakeFiles/cmTC_865a5.dir/src.c.obj -MF CMakeFiles\\cmTC_865a5.dir\\src.c.obj.d -o CMakeFiles/cmTC_865a5.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-4rqzgh/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_865a5.dir/src.c.obj -o cmTC_865a5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_865a5.lib -Xlinker /pdb:cmTC_865a5.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:604 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_WDOCUMENTATION"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-6nn4or"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-6nn4or"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_WDOCUMENTATION"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-6nn4or'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_ea9d6
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_WDOCUMENTATION  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wdocumentation -MD -MT CMakeFiles/cmTC_ea9d6.dir/src.c.obj -MF CMakeFiles\\cmTC_ea9d6.dir\\src.c.obj.d -o CMakeFiles/cmTC_ea9d6.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-6nn4or/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_ea9d6.dir/src.c.obj -o cmTC_ea9d6.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ea9d6.lib -Xlinker /pdb:cmTC_ea9d6.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:615 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-jvy7b6"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-jvy7b6"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-jvy7b6'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_3be4e
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wdocumentation-unknown-command -MD -MT CMakeFiles/cmTC_3be4e.dir/src.c.obj -MF CMakeFiles\\cmTC_3be4e.dir\\src.c.obj.d -o CMakeFiles/cmTC_3be4e.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-jvy7b6/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_3be4e.dir/src.c.obj -o cmTC_3be4e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3be4e.lib -Xlinker /pdb:cmTC_3be4e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:626 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_COMMENT_BLOCK_COMMANDS"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-j95ush"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-j95ush"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_COMMENT_BLOCK_COMMANDS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-j95ush'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_84068
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -fcomment-block-commands=threadsafety -MD -MT CMakeFiles/cmTC_84068.dir/src.c.obj -MF CMakeFiles\\cmTC_84068.dir\\src.c.obj.d -o CMakeFiles/cmTC_84068.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-j95ush/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_84068.dir/src.c.obj -o cmTC_84068.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_84068.lib -Xlinker /pdb:cmTC_84068.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:638 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-b26aq3"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-b26aq3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_WDECLARATION_AFTER_STATEMENT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-b26aq3'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_3fe9e
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wdeclaration-after-statement -MD -MT CMakeFiles/cmTC_3fe9e.dir/src.c.obj -MF CMakeFiles\\cmTC_3fe9e.dir\\src.c.obj.d -o CMakeFiles/cmTC_3fe9e.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-b26aq3/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_3fe9e.dir/src.c.obj -o cmTC_3fe9e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3fe9e.lib -Xlinker /pdb:cmTC_3fe9e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:658 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GCC_ATOMICS"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-iy0l0k"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-iy0l0k"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_ATOMICS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-iy0l0k'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_dd010
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_ATOMICS  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_dd010.dir/src.c.obj -MF CMakeFiles\\cmTC_dd010.dir\\src.c.obj.d -o CMakeFiles/cmTC_dd010.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-iy0l0k/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_dd010.dir/src.c.obj -o cmTC_dd010.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_dd010.lib -Xlinker /pdb:cmTC_dd010.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:677 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GCC_FVISIBILITY"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qwwwrl"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qwwwrl"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_FVISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qwwwrl'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_5a9c6
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_FVISIBILITY  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -fvisibility=hidden -Werror -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_5a9c6.dir/src.c.obj -MF CMakeFiles\\cmTC_5a9c6.dir\\src.c.obj.d -o CMakeFiles/cmTC_5a9c6.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qwwwrl/src.c
+        FAILED: CMakeFiles/cmTC_5a9c6.dir/src.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_FVISIBILITY  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -fvisibility=hidden -Werror -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_5a9c6.dir/src.c.obj -MF CMakeFiles\\cmTC_5a9c6.dir\\src.c.obj.d -o CMakeFiles/cmTC_5a9c6.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qwwwrl/src.c
+        C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-qwwwrl/src.c:3:8: error: SDL only uses visibility attributes in GCC 4 or newer\x0d
+            3 |       #error SDL only uses visibility attributes in GCC 4 or newer\x0d
+              |        ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:687 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_WSHADOW"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ekud5q"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ekud5q"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ekud5q'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_ae9f2
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_WSHADOW  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wshadow -MD -MT CMakeFiles/cmTC_ae9f2.dir/src.c.obj -MF CMakeFiles\\cmTC_ae9f2.dir\\src.c.obj.d -o CMakeFiles/cmTC_ae9f2.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ekud5q/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_ae9f2.dir/src.c.obj -o cmTC_ae9f2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ae9f2.lib -Xlinker /pdb:cmTC_ae9f2.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:692 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-wmhwlu"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-wmhwlu"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-wmhwlu'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_ad7c8
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_GCC_WUNUSED_LOCAL_TYPEDEFS  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wunused-local-typedefs -MD -MT CMakeFiles/cmTC_ad7c8.dir/src.c.obj -MF CMakeFiles\\cmTC_ad7c8.dir\\src.c.obj.d -o CMakeFiles/cmTC_ad7c8.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-wmhwlu/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_ad7c8.dir/src.c.obj -o cmTC_ad7c8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ad7c8.lib -Xlinker /pdb:cmTC_ad7c8.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "external/SDL/CMakeLists.txt:711 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_NO_UNDEFINED"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-s0fmzz"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-s0fmzz"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_NO_UNDEFINED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-s0fmzz'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_5725c
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_NO_UNDEFINED  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -Wl,--no-undefined -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_5725c.dir/src.c.obj -MF CMakeFiles\\cmTC_5725c.dir\\src.c.obj.d -o CMakeFiles/cmTC_5725c.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-s0fmzz/src.c
+        clang: warning: -Wl,--no-undefined: 'linker' input unused [-Wunused-command-line-argument]\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -Wl,--no-undefined -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_5725c.dir/src.c.obj -o cmTC_5725c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_5725c.lib -Xlinker /pdb:cmTC_5725c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: warning: ignoring unknown argument '--no-undefined'\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:763 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MMX"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-gsmjq1"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-gsmjq1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-gsmjq1'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_c5277
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_MMX  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -mmmx -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c5277.dir/src.c.obj -MF CMakeFiles\\cmTC_c5277.dir\\src.c.obj.d -o CMakeFiles/cmTC_c5277.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-gsmjq1/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -mmmx -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_c5277.dir/src.c.obj -o cmTC_c5277.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c5277.lib -Xlinker /pdb:cmTC_c5277.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:804 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SSE"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-sl9ix9"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-sl9ix9"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-sl9ix9'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_f4a4e
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_SSE  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -msse -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f4a4e.dir/src.c.obj -MF CMakeFiles\\cmTC_f4a4e.dir\\src.c.obj.d -o CMakeFiles/cmTC_f4a4e.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-sl9ix9/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -msse -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f4a4e.dir/src.c.obj -o cmTC_f4a4e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f4a4e.lib -Xlinker /pdb:cmTC_f4a4e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:827 (check_c_source_compiles)"
+    checks:
+      - "Performing Test CPU_SUPPORTS_SSE2"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3le6pc"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3le6pc"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CPU_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3le6pc'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_18006
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCPU_SUPPORTS_SSE2  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -msse2 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_18006.dir/src.c.obj -MF CMakeFiles\\cmTC_18006.dir\\src.c.obj.d -o CMakeFiles/cmTC_18006.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3le6pc/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -msse2 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_18006.dir/src.c.obj -o cmTC_18006.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_18006.lib -Xlinker /pdb:cmTC_18006.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:851 (check_c_source_compiles)"
+    checks:
+      - "Performing Test CPU_SUPPORTS_SSE3"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ma34v4"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ma34v4"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CPU_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ma34v4'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_22c85
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCPU_SUPPORTS_SSE3  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -msse3 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_22c85.dir/src.c.obj -MF CMakeFiles\\cmTC_22c85.dir\\src.c.obj.d -o CMakeFiles/cmTC_22c85.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ma34v4/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -msse3 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_22c85.dir/src.c.obj -o cmTC_22c85.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_22c85.lib -Xlinker /pdb:cmTC_22c85.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:886 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ccaaf7"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ccaaf7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ccaaf7'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_b57ea
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b57ea.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_b57ea.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_b57ea.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ccaaf7/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_b57ea.dir/CheckIncludeFile.c.obj -o cmTC_b57ea.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b57ea.lib -Xlinker /pdb:cmTC_b57ea.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:890 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ALTIVEC_H_HDR"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ik5b8o"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ik5b8o"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_ALTIVEC_H_HDR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ik5b8o'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_83726
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_83726.dir/src.c.obj -MF CMakeFiles\\cmTC_83726.dir\\src.c.obj.d -o CMakeFiles/cmTC_83726.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ik5b8o/src.c
+        FAILED: CMakeFiles/cmTC_83726.dir/src.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_83726.dir/src.c.obj -MF CMakeFiles\\cmTC_83726.dir\\src.c.obj.d -o CMakeFiles/cmTC_83726.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ik5b8o/src.c
+        clang: error: unsupported option '-maltivec' for target 'x86_64-pc-windows-msvc'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:896 (check_c_source_compiles)"
+    checks:
+      - "Performing Test CPU_SUPPORTS_ALTIVEC"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-2b3j5o"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-2b3j5o"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "CPU_SUPPORTS_ALTIVEC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-2b3j5o'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_d57e3
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCPU_SUPPORTS_ALTIVEC  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d57e3.dir/src.c.obj -MF CMakeFiles\\cmTC_d57e3.dir\\src.c.obj.d -o CMakeFiles/cmTC_d57e3.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-2b3j5o/src.c
+        FAILED: CMakeFiles/cmTC_d57e3.dir/src.c.obj 
+        C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DCPU_SUPPORTS_ALTIVEC  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos" -maltivec -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d57e3.dir/src.c.obj -MF CMakeFiles\\cmTC_d57e3.dir\\src.c.obj.d -o CMakeFiles/cmTC_d57e3.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-2b3j5o/src.c
+        clang: error: unsupported option '-maltivec' for target 'x86_64-pc-windows-msvc'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1166 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ufwlp5"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ufwlp5"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ufwlp5'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_eb4f6
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_eb4f6.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_eb4f6.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_eb4f6.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-ufwlp5/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_eb4f6.dir/CheckIncludeFile.c.obj -o cmTC_eb4f6.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_eb4f6.lib -Xlinker /pdb:cmTC_eb4f6.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:1768 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-xtq9g7"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-xtq9g7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-xtq9g7'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_e2563
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_WIN32_CC  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e2563.dir/src.c.obj -MF CMakeFiles\\cmTC_e2563.dir\\src.c.obj.d -o CMakeFiles/cmTC_e2563.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-xtq9g7/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_e2563.dir/src.c.obj -o cmTC_e2563.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e2563.lib -Xlinker /pdb:cmTC_e2563.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1802 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8np10"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8np10"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8np10'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_9fc3a
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9fc3a.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_9fc3a.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_9fc3a.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-r8np10/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_9fc3a.dir/CheckIncludeFile.c.obj -o cmTC_9fc3a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9fc3a.lib -Xlinker /pdb:cmTC_9fc3a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1803 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-hsorcr"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-hsorcr"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-hsorcr'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_f94cd
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f94cd.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_f94cd.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_f94cd.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-hsorcr/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f94cd.dir/CheckIncludeFile.c.obj -o cmTC_f94cd.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f94cd.lib -Xlinker /pdb:cmTC_f94cd.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:1804 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oixqit"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oixqit"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oixqit'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_f219e
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_D3D12_H  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f219e.dir/src.c.obj -MF CMakeFiles\\cmTC_f219e.dir\\src.c.obj.d -o CMakeFiles/cmTC_f219e.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-oixqit/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f219e.dir/src.c.obj -o cmTC_f219e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f219e.lib -Xlinker /pdb:cmTC_f219e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1810 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-nvotus"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-nvotus"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-nvotus'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_88ed2
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_88ed2.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_88ed2.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_88ed2.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-nvotus/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_88ed2.dir/CheckIncludeFile.c.obj -o cmTC_88ed2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_88ed2.lib -Xlinker /pdb:cmTC_88ed2.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1811 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-udk2j1"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-udk2j1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-udk2j1'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_9160c
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9160c.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_9160c.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_9160c.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-udk2j1/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_9160c.dir/CheckIncludeFile.c.obj -o cmTC_9160c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9160c.lib -Xlinker /pdb:cmTC_9160c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1812 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-l58lpz"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-l58lpz"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-l58lpz'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_f6008
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f6008.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_f6008.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_f6008.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-l58lpz/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f6008.dir/CheckIncludeFile.c.obj -o cmTC_f6008.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f6008.lib -Xlinker /pdb:cmTC_f6008.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1816 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-bltbhl"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-bltbhl"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-bltbhl'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_1d2c8
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_1d2c8.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_1d2c8.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_1d2c8.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-bltbhl/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_1d2c8.dir/CheckIncludeFile.c.obj -o cmTC_1d2c8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1d2c8.lib -Xlinker /pdb:cmTC_1d2c8.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:1830 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twy8yg"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twy8yg"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twy8yg'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_f8a0b
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_XINPUT_H  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f8a0b.dir/src.c.obj -MF CMakeFiles\\cmTC_f8a0b.dir\\src.c.obj.d -o CMakeFiles/cmTC_f8a0b.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-twy8yg/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f8a0b.dir/src.c.obj -o cmTC_f8a0b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f8a0b.lib -Xlinker /pdb:cmTC_f8a0b.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL/CMakeLists.txt:1834 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3k4qsb"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3k4qsb"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3k4qsb'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_f9884
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_WINDOWS_GAMING_INPUT_H  -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f9884.dir/src.c.obj -MF CMakeFiles\\cmTC_f9884.dir\\src.c.obj.d -o CMakeFiles/cmTC_f9884.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-3k4qsb/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f9884.dir/src.c.obj -o cmTC_f9884.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f9884.lib -Xlinker /pdb:cmTC_f9884.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1842 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-a1c084"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-a1c084"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-a1c084'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_3961c
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3961c.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_3961c.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_3961c.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-a1c084/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_3961c.dir/CheckIncludeFile.c.obj -o cmTC_3961c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3961c.lib -Xlinker /pdb:cmTC_3961c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1843 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-c2wa4s"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-c2wa4s"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-c2wa4s'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_6e146
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6e146.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_6e146.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_6e146.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-c2wa4s/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_6e146.dir/CheckIncludeFile.c.obj -o cmTC_6e146.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6e146.lib -Xlinker /pdb:cmTC_6e146.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1844 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-pdc8v2"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-pdc8v2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-pdc8v2'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_6ef48
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6ef48.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_6ef48.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_6ef48.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-pdc8v2/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_6ef48.dir/CheckIncludeFile.c.obj -o cmTC_6ef48.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6ef48.lib -Xlinker /pdb:cmTC_6ef48.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1845 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-rqkuy8"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-rqkuy8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-rqkuy8'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_af070
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_af070.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_af070.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_af070.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-rqkuy8/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_af070.dir/CheckIncludeFile.c.obj -o cmTC_af070.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_af070.lib -Xlinker /pdb:cmTC_af070.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1846 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-heb10x"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-heb10x"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-heb10x'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_cf1da
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cf1da.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_cf1da.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_cf1da.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-heb10x/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_cf1da.dir/CheckIncludeFile.c.obj -o cmTC_cf1da.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cf1da.lib -Xlinker /pdb:cmTC_cf1da.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "external/SDL/CMakeLists.txt:1847 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-d7ua6s"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-d7ua6s"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: " -idirafter \"C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos\""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-d7ua6s'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_327bf
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe   -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_327bf.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_327bf.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_327bf.dir/CheckIncludeFile.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-d7ua6s/CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -idirafter "C:/Develop/Project/Tower-Defense-Game/external/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_327bf.dir/CheckIncludeFile.c.obj -o cmTC_327bf.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_327bf.lib -Xlinker /pdb:cmTC_327bf.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Develop/Tools/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "external/SDL_image/cmake/PrivateSdlFunctions.cmake:274 (check_c_source_compiles)"
+      - "external/SDL_image/cmake/PrivateSdlFunctions.cmake:283 (sdl_check_linker_flag)"
+      - "external/SDL_image/CMakeLists.txt:305 (sdl_target_link_options_no_undefined)"
+    checks:
+      - "Performing Test HAVE_WL_NO_UNDEFINED"
+    directories:
+      source: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-k7e9sh"
+      binary: "C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-k7e9sh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Develop/Tools/clang+llvm-18.1.8-x86_64-pc-windows-msvc/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Develop/Project/Tower-Defense-Game/external/SDL_image/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_WL_NO_UNDEFINED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-k7e9sh'
+        
+        Run Build Command(s): C:/Develop/Tools/mingw64/bin/ninja.exe -v cmTC_cc702
+        [1/2] C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -DHAVE_WL_NO_UNDEFINED  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cc702.dir/src.c.obj -MF CMakeFiles\\cmTC_cc702.dir\\src.c.obj.d -o CMakeFiles/cmTC_cc702.dir/src.c.obj -c C:/Develop/Project/Tower-Defense-Game/build/CMakeFiles/CMakeScratch/TryCompile-k7e9sh/src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Develop\\Tools\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\clang+llvm-18.1.8-x86_64-pc-windows-msvc\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -Wl,--no-undefined -fuse-ld=lld-link CMakeFiles/cmTC_cc702.dir/src.c.obj -o cmTC_cc702.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cc702.lib -Xlinker /pdb:cmTC_cc702.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: warning: ignoring unknown argument '--no-undefined'\x0d
+        
+      exitCode: 0
+...

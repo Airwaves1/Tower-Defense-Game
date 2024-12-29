@@ -1,0 +1,183 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "external/SDL",
+					"jsonFile" : "directory-external.SDL-Release-d0edf57735263782969b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/SDL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "external/SDL_image",
+					"jsonFile" : "directory-external.SDL_image-Release-f56c4a04f87b6b717aa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/SDL_image",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Tower_Defense_Game",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL2-Release-30f273ace8f93db2b0c4.json",
+					"name" : "SDL2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL2-static-Release-63154daffd4910f84682.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_image::@b3bda19ab55850be12b4",
+					"jsonFile" : "target-SDL2_image-Release-239dacf918f77c7b09f9.json",
+					"name" : "SDL2_image",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2_test::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL2_test-Release-e3b6a0e84d3337898efc.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-SDL2main-Release-9cf16f6b7960cd230354.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TowerDefenseGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TowerDefenseGame-Release-ad3e04159447a8f48511.json",
+					"name" : "TowerDefenseGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdl_headers_copy::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-sdl_headers_copy-Release-773b738ccc585f7b9bcd.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@325f9cd2ad4d12a63863",
+					"jsonFile" : "target-uninstall-Release-14d12667b292182bb987.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Develop/Project/Tower-Defense-Game/build",
+		"source" : "C:/Develop/Project/Tower-Defense-Game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

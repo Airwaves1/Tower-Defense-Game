@@ -1,0 +1,635 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/release/SDL2_image.dll"
+		},
+		{
+			"path" : "bin/release/SDL2_image.lib"
+		},
+		{
+			"path" : "bin/release/SDL2_image.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_definitions",
+			"add_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"external/SDL_image/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 204,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 232,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 441,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 445,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 449,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 549,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 557,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 608,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 612,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 616,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 620,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 730,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 734,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 738,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 318,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 227,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BUILD_SDL"
+				},
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LOAD_BMP"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LOAD_GIF"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "LOAD_JPG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "LOAD_LBM"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "LOAD_PCX"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LOAD_PNG"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "LOAD_PNM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "LOAD_QOI"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "LOAD_SVG"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "LOAD_TGA"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "LOAD_XCF"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "LOAD_XPM"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "LOAD_XV"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "PROJECT_DIR=\"C:/Develop/Project/Tower-Defense-Game\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SDL_BUILD_MAJOR_VERSION=2"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SDL_BUILD_MICRO_VERSION=4"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SDL_BUILD_MINOR_VERSION=8"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SDL_IMAGE_SAVE_JPG=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SDL_IMAGE_SAVE_PNG=1"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "USE_STBIMAGE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 21,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/external/SDL_image/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/build/external/SDL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/build/external/SDL/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/build/external/SDL/include-config-release/SDL2"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BUILD_SDL"
+				},
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LOAD_BMP"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LOAD_GIF"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "LOAD_JPG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "LOAD_LBM"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "LOAD_PCX"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "LOAD_PNG"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "LOAD_PNM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "LOAD_QOI"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "LOAD_SVG"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "LOAD_TGA"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "LOAD_XCF"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "LOAD_XPM"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "LOAD_XV"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "PROJECT_DIR=\"C:/Develop/Project/Tower-Defense-Game\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SDL_BUILD_MAJOR_VERSION=2"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SDL_BUILD_MICRO_VERSION=4"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SDL_BUILD_MINOR_VERSION=8"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SDL_IMAGE_SAVE_JPG=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SDL_IMAGE_SAVE_PNG=1"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "USE_STBIMAGE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 21,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/external/SDL_image/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/build/external/SDL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/build/external/SDL/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Develop/Project/Tower-Defense-Game/build/external/SDL/include-config-release/SDL2"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				20
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "SDL2::@325f9cd2ad4d12a63863"
+		}
+	],
+	"id" : "SDL2_image::@b3bda19ab55850be12b4",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-fuse-ld=lld-link",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "bin\\release\\SDL2.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "SDL2_image",
+	"nameOnDisk" : "SDL2_image.dll",
+	"paths" : 
+	{
+		"build" : "external/SDL_image",
+		"source" : "external/SDL_image"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_WIC.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_avif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_bmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_gif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_jpg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_jxl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_lbm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_pcx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_pnm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_qoi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_stb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_svg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_tga.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_tif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_webp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_xcf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_xpm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/SDL_image/src/IMG_xv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 1,
+			"path" : "external/SDL_image/src/version.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
