@@ -185,15 +185,15 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "SDL2_image::@b3bda19ab55850be12b4"
-		},
-		{
-			"backtrace" : 4,
 			"id" : "SDL2main::@325f9cd2ad4d12a63863"
 		},
 		{
 			"backtrace" : 4,
 			"id" : "SDL2::@325f9cd2ad4d12a63863"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "SDL2_image::@b3bda19ab55850be12b4"
 		}
 	],
 	"id" : "TowerDefenseGame::@6890427a1f51a3e7e1df",
